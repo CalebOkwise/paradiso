@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 132" role="img" aria-labelledby="title desc">
+  <title id="title">YourLandlady NG</title>
+  <desc id="desc">YourLandlady NG logo with land mark and lemon green accent.</desc>
+  <defs>
+    <style>
+      .ink { fill: #071f22; }
+      .lemon { fill: #caff22; }
+    </style>
+  </defs>
+  <g transform="translate(6 14)">
+    <path class="ink" d="M0 15h83v86H0z"/>
+    <path class="paper" fill="#fbfcf6" d="M51 32h12v12H51zM51 58h12v12H51zM51 84h12v12H51z"/>
+    <path class="lemon" d="M83 33h41v69H83zM106 102h48v16H106zM124 33h18v18h-18z"/>
+    <path class="ink" d="M101 0h40v34h-40zM101 54h40v48h-40z"/>
+    <circle class="lemon" cx="100" cy="34" r="10"/>
+    <circle class="lemon" cx="141" cy="54" r="10"/>
+    <path class="lemon" d="M0 0h83v15H0z"/>
+  </g>
+  <g class="ink" transform="translate(184 43)">
+    <path d="M0 1h29l18 33L65 1h28L60 56v34H34V56L0 1z"/>
+    <path d="M87 56c0-21 16-36 39-36s39 15 39 36-16 36-39 36-39-15-39-36zm53 0c0-9-5-15-14-15s-14 6-14 15 5 15 14 15 14-6 14-15z"/>
+    <path d="M176 22h24v38c0 8 4 12 11 12 8 0 13-5 13-14V22h24v68h-24v-9c-5 7-12 11-23 11-16 0-25-11-25-29V22z"/>
+    <path d="M263 22h24v11c4-8 11-12 21-12 2 0 4 0 6 1v24c-3-1-6-2-10-2-11 0-17 7-17 20v26h-24V22z"/>
+    <path d="M324 0h25v90h-25V0z"/>
+    <path d="M361 56c0-22 14-36 33-36 10 0 18 4 23 11v-9h24v68h-24v-9c-5 7-13 11-23 11-19 0-33-14-33-36zm56 0c0-9-6-15-15-15s-15 6-15 15 6 15 15 15 15-6 15-15z"/>
+    <path d="M456 22h24v9c5-7 13-11 24-11 16 0 26 11 26 29v41h-24V52c0-8-4-12-12-12s-14 5-14 14v36h-24V22z"/>
+    <path d="M541 56c0-22 14-36 33-36 10 0 18 4 23 11V0h24v90h-24v-9c-5 7-13 11-23 11-19 0-33-14-33-36zm56 0c0-9-6-15-15-15s-15 6-15 15 6 15 15 15 15-6 15-15z"/>
+  </g>
+  <g transform="translate(627 43)">
+    <path class="ink" d="M0 1h22l28 43V1h24v89H52L24 47v43H0V1z"/>
+    <path class="lemon" d="M86 17h47v20h-22v16h22v21c-9 12-22 18-40 18-27 0-47-19-47-46S66 0 94 0c17 0 30 6 39 18l-17 15c-6-7-13-10-21-10-14 0-24 10-24 24 0 15 10 24 24 24 6 0 11-1 15-4V52H86V17z"/>
+  </g>
+</svg>

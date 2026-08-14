@@ -1,0 +1,40 @@
+CREATE DATABASE IF NOT EXISTS yourlandlady CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE yourlandlady;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    display_name VARCHAR(100) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS leads (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(150) NOT NULL,
+    phone_whatsapp VARCHAR(50) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    investment_range VARCHAR(50) NOT NULL,
+    farmland_interest VARCHAR(50) NOT NULL,
+    primary_goal VARCHAR(100) NOT NULL,
+    timeline VARCHAR(50) NOT NULL,
+    status VARCHAR(50) NOT NULL DEFAULT 'New',
+    assigned_to VARCHAR(100) DEFAULT NULL,
+    next_followup DATE DEFAULT NULL,
+    notes TEXT DEFAULT NULL,
+    utm_source VARCHAR(100) DEFAULT NULL,
+    utm_medium VARCHAR(100) DEFAULT NULL,
+    utm_campaign VARCHAR(100) DEFAULT NULL,
+    utm_content VARCHAR(100) DEFAULT NULL,
+    utm_term VARCHAR(100) DEFAULT NULL,
+    fbclid VARCHAR(200) DEFAULT NULL,
+    ip_address VARCHAR(45) DEFAULT NULL,
+    user_agent VARCHAR(255) DEFAULT NULL,
+    page_url VARCHAR(255) DEFAULT NULL,
+    referrer VARCHAR(255) DEFAULT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+INSERT IGNORE INTO users (username, password_hash, display_name)
+VALUES ('admin', '$2y$10$7UKhIaRNV4xuQy3ttANRNuBJc7ZQVQMdKSqs3bVf2yYhYYhnFyXeS', 'Paradiso Admin');
