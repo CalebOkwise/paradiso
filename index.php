@@ -94,7 +94,7 @@ function old($key, $default = '') {
 
         <section class="section editorial-strip">
             <div class="wrapper editorial-grid">
-                <p class="section-kicker">The conversation from the ad</p>
+                <p class="section-kicker">From income to ownership</p>
                 <h2>You can be highly paid and still have your future tied too tightly to employment.</h2>
                 <p>For senior professionals, the real shift is converting income into assets that can work outside their career. Farmland is the vehicle here; professional management is what makes it realistic.</p>
             </div>
@@ -192,19 +192,19 @@ function old($key, $default = '') {
             <div class="wrapper">
                 <div class="media-grid">
                     <div class="media-copy">
-                        <p class="section-kicker">Proof before persuasion</p>
-                        <h2>Use real Paradiso farm photos, videos and buyer proof here.</h2>
-                        <p>These slots are intentionally structured for genuine farm media. Replace the visual placeholders with Paradiso photographs, field videos, ownership documents or approved testimonials when available.</p>
+                        <p class="section-kicker">Evidence that builds trust</p>
+                        <h2>See the farm, the process and the ownership path before you decide.</h2>
+                        <p>Every serious enquiry should be backed by clear farm context, documented next steps and approved buyer proof, so the decision is based on substance rather than pressure.</p>
                     </div>
                     <div class="farm-frame"><div class="farm-art farm-art-close"></div></div>
                     <div class="farm-frame"><div class="farm-art farm-art-palm"></div></div>
                     <div class="proof-card">
-                        <h3>Credibility checklist</h3>
+                        <h3>What buyers can verify</h3>
                         <ul>
-                            <li>Real farm footage</li>
-                            <li>Actual field progress</li>
-                            <li>Clear ownership process</li>
-                            <li>Verified testimonials only</li>
+                            <li>Farm location and field activity</li>
+                            <li>Crop progress and management updates</li>
+                            <li>Clear ownership and payment process</li>
+                            <li>Approved buyer testimonials and records</li>
                         </ul>
                     </div>
                 </div>
@@ -313,12 +313,11 @@ function old($key, $default = '') {
                         <div class="form-progress" aria-hidden="true">
                             <span class="active"></span>
                             <span></span>
-                            <span></span>
                         </div>
 
                         <div class="step active" data-step="1">
                             <div class="step-heading">
-                                <span>Step 1 of 3</span>
+                                <span>Step 1 of 2</span>
                                 <h3>Contact details</h3>
                             </div>
                             <div class="form-grid">
@@ -342,7 +341,7 @@ function old($key, $default = '') {
 
                         <div class="step" data-step="2">
                             <div class="step-heading">
-                                <span>Step 2 of 3</span>
+                                <span>Step 2 of 2</span>
                                 <h3>Ownership fit</h3>
                             </div>
                             <div class="form-grid">
@@ -392,17 +391,6 @@ function old($key, $default = '') {
                                         <option value="Just researching" <?php echo old('timeline') === 'Just researching' ? 'selected' : ''; ?>>Just researching</option>
                                     </select>
                                 </label>
-                            </div>
-                            <div class="step-actions">
-                                <button type="button" class="button button-ghost" data-action="back">Back</button>
-                                <button type="button" class="button" data-action="next">Continue</button>
-                            </div>
-                        </div>
-
-                        <div class="step" data-step="3">
-                            <div class="step-heading">
-                                <span>Step 3 of 3</span>
-                                <h3>Submit enquiry</h3>
                             </div>
                             <div class="review-card">
                                 <p>Your enquiry will be stored securely with the attribution data from the ad click, then a specialist can follow up with the relevant Paradiso farm option.</p>

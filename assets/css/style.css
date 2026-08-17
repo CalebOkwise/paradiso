@@ -675,6 +675,7 @@ h3 {
 }
 
 .review-card {
+    margin-top: 16px;
     padding: 20px;
     border: 1px solid var(--line);
     border-radius: 8px;
