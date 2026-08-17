@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/functions.php';
     <main class="thank-you-page">
         <div class="wrapper thank-you-panel">
             <a href="/" class="brand" aria-label="YourLandlady NG home">
-                <img src="assets/images/yourlandlady-logo.svg" alt="YourLandlady NG">
+                <img src="assets/images/logo3trimmed.png" alt="YourLandlady NG">
             </a>
             <h1>Thank you. Your inquiry is received.</h1>
             <p>A YourLandlady NG specialist will review your details and contact you shortly about the relevant Paradiso managed farmland option for your goals.</p>

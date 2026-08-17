@@ -748,8 +748,8 @@ h3 {
 
 .thank-you-panel h1 {
     margin: 0;
-    font-size: clamp(2.2rem, 5vw, 3.7rem);
-    line-height: 1;
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    line-height: 1.2;
 }
 
 .thank-you-panel p {

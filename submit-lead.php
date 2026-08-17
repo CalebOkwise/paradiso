@@ -3,16 +3,22 @@ require_once __DIR__ . '/includes/db.php';
 require_once __DIR__ . '/includes/functions.php';
 ensure_session();
 
+/*
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     redirect('/');
 }
 
-$errors = [];
 
 $honeypot = $_POST['company_name'] ?? '';
 if (!empty($honeypot)) {
     redirect('/');
 }
+
+*/
+
+$errors = [];
+
 
 if (!verify_csrf_token($_POST['csrf_token'] ?? '')) {
     $errors[] = 'Invalid form submission. Please reload the page and try again.';
