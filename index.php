@@ -78,7 +78,7 @@ function old($key, $default = '') {
                 </div>
                 <div class="hero-visual" aria-label="Paradiso farm media preview">
                     <div class="farm-frame farm-frame-large">
-                        <div class="farm-art farm-art-hero"></div>
+                        <iframe class="farm-iframe-hero" src="https://www.youtube.com/embed/aAXcm102DcE" title="Paradiso Farms Video" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <div class="farm-caption">
                             <span>Paradiso Farms</span>
                             <strong>Managed farmland ownership</strong>
@@ -86,7 +86,7 @@ function old($key, $default = '') {
                     </div>
                     <div class="video-tile">
                         <span class="play-mark" aria-hidden="true"></span>
-                        <p>Farm video slot</p>
+                        <p>Live Video at Paradiso Farms</p>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@ function old($key, $default = '') {
         <section class="section solution-section">
             <div class="wrapper feature-layout">
                 <div class="farm-frame">
-                    <div class="farm-art farm-art-fields"></div>
+                    <iframe class="farm-iframe-hero" src="https://www.youtube.com/embed/6YcaXUakkLY" title="Paradiso Farms - Solution Video" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div>
                     <p class="section-kicker">How it works</p>
@@ -196,8 +196,8 @@ function old($key, $default = '') {
                         <h2>See the farm, the process and the ownership path before you decide.</h2>
                         <p>Every serious enquiry should be backed by clear farm context, documented next steps and approved buyer proof, so the decision is based on substance rather than pressure.</p>
                     </div>
-                    <div class="farm-frame"><div class="farm-art farm-art-close"></div></div>
-                    <div class="farm-frame"><div class="farm-art farm-art-palm"></div></div>
+                    <div class="farm-frame" style="grid-column: span 2;"><iframe class="farm-iframe-hero" src="https://www.youtube.com/embed/ywSfj3Yw_-Q" title="Paradiso Farm Video" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <!-- <div class="farm-frame"><div class="farm-art farm-art-palm"></div></div> https://www.youtube.com/shorts/ywSfj3Yw_-Q-->
                     <div class="proof-card">
                         <h3>What buyers can verify</h3>
                         <ul>
