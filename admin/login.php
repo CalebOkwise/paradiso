@@ -4,7 +4,7 @@ require_once __DIR__ . '/../includes/functions.php';
 ensure_session();
 
 if (is_admin_logged_in()) {
-    redirect('/admin/dashboard.php');
+    redirect('dashboard.php');
 }
 
 $message = '';
@@ -14,12 +14,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($username === '' || $password === '') {
         $message = 'Please enter your username and password.';
     } elseif (admin_login($username, $password)) {
-        redirect('/admin/dashboard.php');
+        redirect('dashboard.php');
     } else {
         $message = 'Invalid username or password.';
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
