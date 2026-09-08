@@ -3,19 +3,19 @@ require_once __DIR__ . '/includes/db.php';
 require_once __DIR__ . '/includes/functions.php';
 ensure_session();
 
-/*
+
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    redirect('/');
+    redirect('/paradiso/');
 }
 
 
 $honeypot = $_POST['company_name'] ?? '';
 if (!empty($honeypot)) {
-    redirect('/');
+    redirect('/paradiso/');
 }
 
-*/
+
 
 $errors = [];
 
@@ -82,17 +82,17 @@ $leadData = [
 if (!empty($errors)) {
     set_flash('form_errors', $errors);
     set_old($_POST);
-    redirect('/#lead-form');
+    redirect('paradiso/#lead-form');
 }
 
 try {
     $pdo = db_connect();
     save_lead($pdo, $leadData);
     clear_old();
-    redirect('/thank-you.php');
+    redirect('/paradiso/thank-you.php');
 } catch (Exception $ex) {
     error_log('Lead submission error: ' . $ex->getMessage());
     set_flash('form_errors', ['We could not process the form. Please try again later.']);
     set_old($_POST);
-    redirect('/#lead-form');
+    redirect('/paradiso/#lead-form');
 }
